@@ -1,0 +1,20 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.1.0-preview.1.25561.8">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>abea6a6a-3cc1-41cf-a514-4a8e434228e5</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyAspireApp.ApiService\MyAspireApp.ApiService.csproj" />
+    <ProjectReference Include="..\MyAspireApp.Web\MyAspireApp.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.Keycloak" Version="13.1.0-preview.1.25561.8" />
+  </ItemGroup>
+
+</Project>
